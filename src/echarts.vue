@@ -2,6 +2,7 @@
   <canvas
     v-if="canvasId"
     class="ec-canvas"
+    :id="canvasId"
     :canvasId="canvasId"
     @touchstart="touchStart"
     @touchmove="touchMove"
@@ -78,7 +79,7 @@ export default {
       this.echarts.setCanvasCreator(() => canvas);
 
       const query = wx.createSelectorQuery();
-      query.select('.ec-canvas').boundingClientRect((res) => {
+      query.select(`#${canvasId}`).boundingClientRect((res) => {
         if (!res) {
           setTimeout(() => this.init(), 50);
           return;
