@@ -29,7 +29,7 @@ function initChart (canvas, width, height) {
       confine: true
     },
     legend: {
-      data: ['热度', '正面', '负面']
+      data: ['热度', '正面两面', '负面']
     },
     grid: {
       left: 20,
