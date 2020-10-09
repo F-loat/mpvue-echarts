@@ -21,7 +21,7 @@ function initChart (canvas, width, height) {
     backgroundColor: '#ffffff',
     color: ['#37A2DA', '#32C5E9', '#67E0E3'],
     series: [{
-      name: '业务指标',
+      name: '业务指标1',
       type: 'gauge',
       detail: {
         formatter: '{value}%'
