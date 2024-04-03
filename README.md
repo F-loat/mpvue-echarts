@@ -79,7 +79,6 @@ export default {
 | onInit       | Function       | null          | 初始化函数     |
 | lazyLoad     | Boolean        | false         | 懒加载         |
 | disableTouch | Boolean        | false         | 禁用触摸事件   |
-| throttleTouch| Boolean        | false         | 节流触摸事件   |
 
 
 ## FAQ
