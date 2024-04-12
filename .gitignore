@@ -63,3 +63,5 @@ typings/
 
 #others
 dist/
+
+package-lock.json

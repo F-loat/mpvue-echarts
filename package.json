@@ -1,11 +1,11 @@
 {
   "name": "mpvue-echarts",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "适用于 Mpvue 的 ECharts 组件",
   "main": "src/echarts.vue",
   "typings": "types/index.d.ts",
   "scripts": {
-    "lint": "eslint --format node_modules/eslint-friendly-formatter --ext .js,.vue src",
+    "lint": "eslint --format node_modules/eslint-friendly-formatter --ext .js,.vue src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [

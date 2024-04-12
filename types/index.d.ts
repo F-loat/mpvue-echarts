@@ -1,3 +1,3 @@
-import { Ecahrts } from './echarts'
+import { ECharts } from './echarts'
 
-export default Ecahrts
+export default ECharts
